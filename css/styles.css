@@ -9675,14 +9675,13 @@ button.bg-dark:focus {
   text-align: left !important;
 }
 
-
-ul.product-listing {
+.product-listing ul{
   padding-left: 0px;
   list-style-type: none;
 }
 
-li.product-listing {
-  margin-bottom: 5px !important;
+.product-listing li{
+  margin-bottom: 10px;
 }
 
 
