@@ -9675,16 +9675,6 @@ button.bg-dark:focus {
   text-align: left !important;
 }
 
-.product-listing ul{
-  padding-left: 0px;
-  list-style-type: none;
-}
-
-.product-listing li{
-  margin-bottom: 10px;
-}
-
-
 .text-right {
   text-align: right !important;
 }
@@ -10032,8 +10022,8 @@ hr.light {
 }
 
 .about-img img{
-    border-radius: 100%
-    margin: 10px;
+    border-radius: 100%;
+    margin: 15px;
 }
 
 #mainNav {
@@ -10168,4 +10158,18 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+.product-listing{
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.product-listing li{
+  margin-bottom: 10px;
+}
+
+.btn-cta a{
+    text-align: center;
+    padding-top: 20px;
 }
