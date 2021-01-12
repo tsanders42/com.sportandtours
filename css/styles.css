@@ -10008,6 +10008,16 @@ hr.light {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.btn-cta {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn-cta a{
+    text-align: center;
+    padding-top: 20px;
+}
+
 .btn-xl {
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
@@ -10091,7 +10101,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/cover.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/cover2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10169,7 +10179,17 @@ header.masthead h1 {
   margin-bottom: 10px;
 }
 
-.btn-cta a{
-    text-align: center;
-    padding-top: 20px;
+.contact a{
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.contact a i{
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.contact svg{
+    vertical-align: middle;
+    margin-right: 20px;
 }
