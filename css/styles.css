@@ -10197,3 +10197,7 @@ header.masthead h1 {
 .map-embed{
     margin-top: 50px;
 }
+
+.languages{
+	display: contents;
+}
