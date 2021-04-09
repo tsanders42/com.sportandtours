@@ -207,6 +207,9 @@ svg {
   vertical-align: middle;
 }
 
+svg.frontpage {
+    height: 4em;
+}
 table {
   border-collapse: collapse;
 }
@@ -7599,7 +7602,7 @@ button.bg-dark:focus {
 
 .mt-5,
 .my-5 {
-  margin-top: 3rem !important;
+  margin-top: 1rem !important;
 }
 
 .mr-5,
@@ -10018,6 +10021,11 @@ hr.light {
     padding-top: 20px;
 }
 
+.btn-inline{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
 .btn-xl {
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
@@ -10028,7 +10036,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 .about-img img{
@@ -10097,23 +10105,73 @@ hr.light {
     color: #f4623a;
   }
 }
-
 header.masthead {
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 0%, rgba(92, 77, 66, 0.5) 100%), url('../assets/img/cover2.jpg');
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 0%, rgba(92, 77, 66, 0.5) 100%), url("../assets/img/cover2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
+header.masthead.sup{
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 50%, rgba(92, 77, 66, 0.5) 100%), url('../assets/img/cover2.jpg');
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 50vh;
+}
+header.masthead.kayak{
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 50%, rgba(92, 77, 66, 0.5) 100%),url('../assets/img/kayak-cover.jpg');
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 50vh;
+}
+header.masthead.windsurf{
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 50%, rgba(92, 77, 66, 0.5) 100%),url('../assets/img/cover-surf.jpg');
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 50vh;
+}
+header.masthead.hike{
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 50%, rgba(92, 77, 66, 0.5) 100%),url('../assets/img/portfolio/fullsize/run1.jpg');
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 50vh;
+}
+header.masthead.bike{
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 50%, rgba(92, 77, 66, 0.5) 100%),url('../assets/img/portfolio/fullsize/bike2.jpg');
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 50vh;
+}
+
 header.masthead h1 {
   font-size: 2.25rem;
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 40rem;
+    min-height: 30rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
@@ -10179,6 +10237,50 @@ header.masthead h1 {
   margin-bottom: 10px;
 }
 
+.map-embed{
+    margin-top: 50px;
+}
+
+.languages{
+    display: contents;
+}
+
+.icon {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  background-size: cover;
+}
+.icon-group:hover,
+.icon-group:focus {
+  filter: invert(22%) sepia(25%) saturate(2878%) hue-rotate(346deg) brightness(100%) contrast(117%);
+}
+
+.icon-group a:link, a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+.icon-group a:hover{
+  text-decoration: underline  ;
+  color: #000000;
+}
+
+.icon-kayak{
+    background-image: url(../assets/img/icon-kayak.svg);
+}
+.icon-sup{
+    background-image: url(../assets/img/icon-sup.svg);
+}
+.icon-bike{
+    background-image: url(../assets/img/icon-cycle.svg);
+}
+.icon-hike{
+    background-image: url(../assets/img/icon-walk.svg);
+}
+.icon-windsurf{
+    background-image: url(../assets/img/icon-windsurf.svg);
+}
+
 .contact a{
     vertical-align: middle;
     padding-right: 20px;
@@ -10194,10 +10296,7 @@ header.masthead h1 {
     margin-right: 20px;
 }
 
-.map-embed{
-    margin-top: 50px;
-}
-
-.languages{
-	display: contents;
+.contact a:link,a:visited {
+    color: #f4623a;
+    text-decoration: none;
 }
