@@ -10126,7 +10126,7 @@ header.masthead.sup{
   height: 50vh;
 }
 header.masthead.kayak{
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 50%, rgba(92, 77, 66, 0.5) 100%),url('../assets/img/kayak-cover.jpg');
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.5) 50%, rgba(92, 77, 66, 0.6) 100%),url('../assets/img/kayak-cover.jpg');
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   background-position: center;
