@@ -3983,7 +3983,7 @@ input[type=button].btn-block {
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-.navbar img{
+.navbar-brand img{
     height: 35px;
     margin-right: 15px;
 }
