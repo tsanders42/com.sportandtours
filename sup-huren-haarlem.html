@@ -175,7 +175,7 @@
                                 document.getElementById('gform').onload = function(){
                                     load++;
                                     console.log(load);
-                                    if(load == 1){
+                                    if(load > 1){
                                         gtag('event', 'FormSent', {'sourceLocation': 'SupHurenNl','action':'FormSent'});
                                     }
                                 }
