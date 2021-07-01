@@ -208,8 +208,8 @@
                                 var load = 0;
                                 document.getElementById('gform').onload = function(){
                                     load++;
-                                    console.log(load);
-                                    if(load == 2){
+                                    if(load == 2 && !document.referrer.includes('facebook.com')){
+                                        console.log("foobar");
                                         gtag('event', 'SendContactform', {'sourceLocation': 'IndexEn','action':'SendContactform'});
                                     }
                                 }
